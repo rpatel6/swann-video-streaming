@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD1BB05A23FD84470013C83F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1BB05923FD84470013C83F /* AppDelegate.swift */; };
+		CD1BB05C23FD84470013C83F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1BB05B23FD84470013C83F /* SceneDelegate.swift */; };
+		CD1BB05E23FD84470013C83F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1BB05D23FD84470013C83F /* ViewController.swift */; };
+		CD1BB06123FD84470013C83F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1BB05F23FD84470013C83F /* Main.storyboard */; };
+		CD1BB06423FD84470013C83F /* Swann_Video_Streaming.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD1BB06223FD84470013C83F /* Swann_Video_Streaming.xcdatamodeld */; };
+		CD1BB06623FD844A0013C83F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1BB06523FD844A0013C83F /* Assets.xcassets */; };
+		CD1BB06923FD844A0013C83F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1BB06723FD844A0013C83F /* LaunchScreen.storyboard */; };
+		CD1BB07423FD844A0013C83F /* Swann_Video_StreamingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1BB07323FD844A0013C83F /* Swann_Video_StreamingTests.swift */; };
+		CD1BB07F23FD844A0013C83F /* Swann_Video_StreamingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1BB07E23FD844A0013C83F /* Swann_Video_StreamingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD1BB07023FD844A0013C83F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD1BB04E23FD84470013C83F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD1BB05523FD84470013C83F;
+			remoteInfo = "Swann Video Streaming";
+		};
+		CD1BB07B23FD844A0013C83F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD1BB04E23FD84470013C83F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD1BB05523FD84470013C83F;
+			remoteInfo = "Swann Video Streaming";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD1BB05623FD84470013C83F /* Swann Video Streaming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swann Video Streaming.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1BB05923FD84470013C83F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD1BB05B23FD84470013C83F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CD1BB05D23FD84470013C83F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD1BB06023FD84470013C83F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD1BB06323FD84470013C83F /* Swann_Video_Streaming.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Swann_Video_Streaming.xcdatamodel; sourceTree = "<group>"; };
+		CD1BB06523FD844A0013C83F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD1BB06823FD844A0013C83F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD1BB06A23FD844A0013C83F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD1BB06F23FD844A0013C83F /* Swann Video StreamingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swann Video StreamingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1BB07323FD844A0013C83F /* Swann_Video_StreamingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swann_Video_StreamingTests.swift; sourceTree = "<group>"; };
+		CD1BB07523FD844A0013C83F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD1BB07A23FD844A0013C83F /* Swann Video StreamingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swann Video StreamingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1BB07E23FD844A0013C83F /* Swann_Video_StreamingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swann_Video_StreamingUITests.swift; sourceTree = "<group>"; };
+		CD1BB08023FD844A0013C83F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD1BB05323FD84470013C83F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1BB06C23FD844A0013C83F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1BB07723FD844A0013C83F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD1BB04D23FD84470013C83F = {
+			isa = PBXGroup;
+			children = (
+				CD1BB05823FD84470013C83F /* Swann Video Streaming */,
+				CD1BB07223FD844A0013C83F /* Swann Video StreamingTests */,
+				CD1BB07D23FD844A0013C83F /* Swann Video StreamingUITests */,
+				CD1BB05723FD84470013C83F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD1BB05723FD84470013C83F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD1BB05623FD84470013C83F /* Swann Video Streaming.app */,
+				CD1BB06F23FD844A0013C83F /* Swann Video StreamingTests.xctest */,
+				CD1BB07A23FD844A0013C83F /* Swann Video StreamingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD1BB05823FD84470013C83F /* Swann Video Streaming */ = {
+			isa = PBXGroup;
+			children = (
+				CD1BB05923FD84470013C83F /* AppDelegate.swift */,
+				CD1BB05B23FD84470013C83F /* SceneDelegate.swift */,
+				CD1BB05D23FD84470013C83F /* ViewController.swift */,
+				CD1BB05F23FD84470013C83F /* Main.storyboard */,
+				CD1BB06523FD844A0013C83F /* Assets.xcassets */,
+				CD1BB06723FD844A0013C83F /* LaunchScreen.storyboard */,
+				CD1BB06A23FD844A0013C83F /* Info.plist */,
+				CD1BB06223FD84470013C83F /* Swann_Video_Streaming.xcdatamodeld */,
+			);
+			path = "Swann Video Streaming";
+			sourceTree = "<group>";
+		};
+		CD1BB07223FD844A0013C83F /* Swann Video StreamingTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD1BB07323FD844A0013C83F /* Swann_Video_StreamingTests.swift */,
+				CD1BB07523FD844A0013C83F /* Info.plist */,
+			);
+			path = "Swann Video StreamingTests";
+			sourceTree = "<group>";
+		};
+		CD1BB07D23FD844A0013C83F /* Swann Video StreamingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD1BB07E23FD844A0013C83F /* Swann_Video_StreamingUITests.swift */,
+				CD1BB08023FD844A0013C83F /* Info.plist */,
+			);
+			path = "Swann Video StreamingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD1BB05523FD84470013C83F /* Swann Video Streaming */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1BB08323FD844A0013C83F /* Build configuration list for PBXNativeTarget "Swann Video Streaming" */;
+			buildPhases = (
+				CD1BB05223FD84470013C83F /* Sources */,
+				CD1BB05323FD84470013C83F /* Frameworks */,
+				CD1BB05423FD84470013C83F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swann Video Streaming";
+			productName = "Swann Video Streaming";
+			productReference = CD1BB05623FD84470013C83F /* Swann Video Streaming.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD1BB06E23FD844A0013C83F /* Swann Video StreamingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1BB08623FD844A0013C83F /* Build configuration list for PBXNativeTarget "Swann Video StreamingTests" */;
+			buildPhases = (
+				CD1BB06B23FD844A0013C83F /* Sources */,
+				CD1BB06C23FD844A0013C83F /* Frameworks */,
+				CD1BB06D23FD844A0013C83F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD1BB07123FD844A0013C83F /* PBXTargetDependency */,
+			);
+			name = "Swann Video StreamingTests";
+			productName = "Swann Video StreamingTests";
+			productReference = CD1BB06F23FD844A0013C83F /* Swann Video StreamingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD1BB07923FD844A0013C83F /* Swann Video StreamingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1BB08923FD844A0013C83F /* Build configuration list for PBXNativeTarget "Swann Video StreamingUITests" */;
+			buildPhases = (
+				CD1BB07623FD844A0013C83F /* Sources */,
+				CD1BB07723FD844A0013C83F /* Frameworks */,
+				CD1BB07823FD844A0013C83F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD1BB07C23FD844A0013C83F /* PBXTargetDependency */,
+			);
+			name = "Swann Video StreamingUITests";
+			productName = "Swann Video StreamingUITests";
+			productReference = CD1BB07A23FD844A0013C83F /* Swann Video StreamingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD1BB04E23FD84470013C83F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Raj Patel";
+				TargetAttributes = {
+					CD1BB05523FD84470013C83F = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					CD1BB06E23FD844A0013C83F = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = CD1BB05523FD84470013C83F;
+					};
+					CD1BB07923FD844A0013C83F = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = CD1BB05523FD84470013C83F;
+					};
+				};
+			};
+			buildConfigurationList = CD1BB05123FD84470013C83F /* Build configuration list for PBXProject "Swann Video Streaming" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD1BB04D23FD84470013C83F;
+			productRefGroup = CD1BB05723FD84470013C83F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD1BB05523FD84470013C83F /* Swann Video Streaming */,
+				CD1BB06E23FD844A0013C83F /* Swann Video StreamingTests */,
+				CD1BB07923FD844A0013C83F /* Swann Video StreamingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD1BB05423FD84470013C83F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1BB06923FD844A0013C83F /* LaunchScreen.storyboard in Resources */,
+				CD1BB06623FD844A0013C83F /* Assets.xcassets in Resources */,
+				CD1BB06123FD84470013C83F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1BB06D23FD844A0013C83F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1BB07823FD844A0013C83F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD1BB05223FD84470013C83F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1BB06423FD84470013C83F /* Swann_Video_Streaming.xcdatamodeld in Sources */,
+				CD1BB05E23FD84470013C83F /* ViewController.swift in Sources */,
+				CD1BB05A23FD84470013C83F /* AppDelegate.swift in Sources */,
+				CD1BB05C23FD84470013C83F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1BB06B23FD844A0013C83F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1BB07423FD844A0013C83F /* Swann_Video_StreamingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1BB07623FD844A0013C83F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1BB07F23FD844A0013C83F /* Swann_Video_StreamingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD1BB07123FD844A0013C83F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD1BB05523FD84470013C83F /* Swann Video Streaming */;
+			targetProxy = CD1BB07023FD844A0013C83F /* PBXContainerItemProxy */;
+		};
+		CD1BB07C23FD844A0013C83F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD1BB05523FD84470013C83F /* Swann Video Streaming */;
+			targetProxy = CD1BB07B23FD844A0013C83F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD1BB05F23FD84470013C83F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD1BB06023FD84470013C83F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD1BB06723FD844A0013C83F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD1BB06823FD844A0013C83F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD1BB08123FD844A0013C83F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD1BB08223FD844A0013C83F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD1BB08423FD844A0013C83F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MQHL2GT9S8;
+				INFOPLIST_FILE = "Swann Video Streaming/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.securecodes.Swann-Video-Streaming";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD1BB08523FD844A0013C83F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MQHL2GT9S8;
+				INFOPLIST_FILE = "Swann Video Streaming/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.securecodes.Swann-Video-Streaming";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD1BB08723FD844A0013C83F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MQHL2GT9S8;
+				INFOPLIST_FILE = "Swann Video StreamingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.securecodes.Swann-Video-StreamingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swann Video Streaming.app/Swann Video Streaming";
+			};
+			name = Debug;
+		};
+		CD1BB08823FD844A0013C83F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MQHL2GT9S8;
+				INFOPLIST_FILE = "Swann Video StreamingTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.securecodes.Swann-Video-StreamingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swann Video Streaming.app/Swann Video Streaming";
+			};
+			name = Release;
+		};
+		CD1BB08A23FD844A0013C83F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MQHL2GT9S8;
+				INFOPLIST_FILE = "Swann Video StreamingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.securecodes.Swann-Video-StreamingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Swann Video Streaming";
+			};
+			name = Debug;
+		};
+		CD1BB08B23FD844A0013C83F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MQHL2GT9S8;
+				INFOPLIST_FILE = "Swann Video StreamingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.securecodes.Swann-Video-StreamingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Swann Video Streaming";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD1BB05123FD84470013C83F /* Build configuration list for PBXProject "Swann Video Streaming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1BB08123FD844A0013C83F /* Debug */,
+				CD1BB08223FD844A0013C83F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD1BB08323FD844A0013C83F /* Build configuration list for PBXNativeTarget "Swann Video Streaming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1BB08423FD844A0013C83F /* Debug */,
+				CD1BB08523FD844A0013C83F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD1BB08623FD844A0013C83F /* Build configuration list for PBXNativeTarget "Swann Video StreamingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1BB08723FD844A0013C83F /* Debug */,
+				CD1BB08823FD844A0013C83F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD1BB08923FD844A0013C83F /* Build configuration list for PBXNativeTarget "Swann Video StreamingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1BB08A23FD844A0013C83F /* Debug */,
+				CD1BB08B23FD844A0013C83F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CD1BB06223FD84470013C83F /* Swann_Video_Streaming.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CD1BB06323FD84470013C83F /* Swann_Video_Streaming.xcdatamodel */,
+			);
+			currentVersion = CD1BB06323FD84470013C83F /* Swann_Video_Streaming.xcdatamodel */;
+			path = Swann_Video_Streaming.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CD1BB04E23FD84470013C83F /* Project object */;
+}
