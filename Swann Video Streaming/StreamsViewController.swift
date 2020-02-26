@@ -1,17 +1,15 @@
-//
-//  ViewController.swift
-//  Swann Video Streaming
-//
-//  Created by Raj Patel on 20/02/20.
-//  Copyright © 2020 Raj Patel. All rights reserved.
-//
-
 import UIKit
 import AVKit
 
+
+enum ScreenNum: Int {
+    case Screen1 = 0
+    case Screen2 = 1
+    case Screen3 = 2
+}
+
 class StreamsViewController: UIViewController {
 
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         downloadScreenLinks()
@@ -58,6 +56,7 @@ class StreamsViewController: UIViewController {
     
     @objc func tapped() {
         segmentedControl.isHidden = !segmentedControl.isHidden
+        settingsButton.isHidden = !settingsButton.isHidden
     }
     private func players(with screens: Screens?) {
         DispatchQueue.main.async {
@@ -97,29 +96,35 @@ class StreamsViewController: UIViewController {
     }
     
     private func streamChanged(to screen: Int) {
-        if screen == 0 {
-            playerView.bringSubviewToFront(views[0])
-            playCurrentStream(at: views[0])
-        }
-        if screen == 1 {
-            playerView.bringSubviewToFront(views[1])
-            playCurrentStream(at: views[1])
-        }
-        if screen == 2 {
-            playerView.bringSubviewToFront(views[2])
-            playCurrentStream(at: views[2])
-
+        switch(screen) {
+        case ScreenNum.Screen1.rawValue:
+            playerView.bringSubviewToFront(views[ScreenNum.Screen1.rawValue])
+            playCurrentStream(at: views[ScreenNum.Screen1.rawValue])
+        case ScreenNum.Screen2.rawValue:
+            playerView.bringSubviewToFront(views[ScreenNum.Screen2.rawValue])
+            playCurrentStream(at: views[ScreenNum.Screen2.rawValue])
+        case ScreenNum.Screen3.rawValue:
+            playerView.bringSubviewToFront(views[ScreenNum.Screen3.rawValue])
+            playCurrentStream(at: views[ScreenNum.Screen3.rawValue])
+        default:
+            break
         }
     }
 
-
-    @IBOutlet weak var segmentedControl: UISegmentedControl!
-    @IBOutlet weak var playerView: UIView!
+    
     @IBAction func segmentChanged(_ sender: UISegmentedControl) {
         streamChanged(to: sender.selectedSegmentIndex)
     }
+    
     @IBAction func buttonTapped(_ sender: UIButton) {
+        let controller = SettingsViewController()
+        self.present(controller, animated: true, completion: nil)
     }
+    
+    
+    @IBOutlet weak var settingsButton: UIButton!
+    @IBOutlet weak var segmentedControl: UISegmentedControl!
+    @IBOutlet weak var playerView: UIView!
     
     private var links: Screens?
     private var views = [UIView]()

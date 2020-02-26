@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+struct Screens: Decodable {
+    let screen1: String
+    let screen2: String
+    let screen3: String
+}

@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		CD1BB05A23FD84470013C83F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1BB05923FD84470013C83F /* AppDelegate.swift */; };
 		CD1BB05C23FD84470013C83F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1BB05B23FD84470013C83F /* SceneDelegate.swift */; };
-		CD1BB05E23FD84470013C83F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1BB05D23FD84470013C83F /* ViewController.swift */; };
 		CD1BB06123FD84470013C83F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1BB05F23FD84470013C83F /* Main.storyboard */; };
 		CD1BB06423FD84470013C83F /* Swann_Video_Streaming.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD1BB06223FD84470013C83F /* Swann_Video_Streaming.xcdatamodeld */; };
 		CD1BB06623FD844A0013C83F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1BB06523FD844A0013C83F /* Assets.xcassets */; };
 		CD1BB06923FD844A0013C83F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1BB06723FD844A0013C83F /* LaunchScreen.storyboard */; };
 		CD1BB07423FD844A0013C83F /* Swann_Video_StreamingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1BB07323FD844A0013C83F /* Swann_Video_StreamingTests.swift */; };
 		CD1BB07F23FD844A0013C83F /* Swann_Video_StreamingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1BB07E23FD844A0013C83F /* Swann_Video_StreamingUITests.swift */; };
+		CD1BB08E23FD901A0013C83F /* Screens.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1BB08D23FD901A0013C83F /* Screens.swift */; };
+		CD1BB0912400DEBD0013C83F /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1BB0902400DEBD0013C83F /* Service.swift */; };
+		CD1BB0972406D5490013C83F /* StreamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1BB0962406D5490013C83F /* StreamsViewController.swift */; };
+		CD1BB09A2406D5D20013C83F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1BB0982406D5D20013C83F /* SettingsViewController.swift */; };
+		CD1BB09B2406D5D20013C83F /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD1BB0992406D5D20013C83F /* SettingsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,6 @@
 		CD1BB05623FD84470013C83F /* Swann Video Streaming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swann Video Streaming.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD1BB05923FD84470013C83F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD1BB05B23FD84470013C83F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CD1BB05D23FD84470013C83F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CD1BB06023FD84470013C83F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD1BB06323FD84470013C83F /* Swann_Video_Streaming.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Swann_Video_Streaming.xcdatamodel; sourceTree = "<group>"; };
 		CD1BB06523FD844A0013C83F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +54,11 @@
 		CD1BB07A23FD844A0013C83F /* Swann Video StreamingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swann Video StreamingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD1BB07E23FD844A0013C83F /* Swann_Video_StreamingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swann_Video_StreamingUITests.swift; sourceTree = "<group>"; };
 		CD1BB08023FD844A0013C83F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD1BB08D23FD901A0013C83F /* Screens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screens.swift; sourceTree = "<group>"; };
+		CD1BB0902400DEBD0013C83F /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		CD1BB0962406D5490013C83F /* StreamsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamsViewController.swift; sourceTree = "<group>"; };
+		CD1BB0982406D5D20013C83F /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		CD1BB0992406D5D20013C83F /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				CD1BB05823FD84470013C83F /* Swann Video Streaming */,
+				CD1BB08F2400DE860013C83F /* Service */,
+				CD1BB08C23FD8FD00013C83F /* Model */,
 				CD1BB07223FD844A0013C83F /* Swann Video StreamingTests */,
 				CD1BB07D23FD844A0013C83F /* Swann Video StreamingUITests */,
 				CD1BB05723FD84470013C83F /* Products */,
@@ -103,7 +113,9 @@
 			children = (
 				CD1BB05923FD84470013C83F /* AppDelegate.swift */,
 				CD1BB05B23FD84470013C83F /* SceneDelegate.swift */,
-				CD1BB05D23FD84470013C83F /* ViewController.swift */,
+				CD1BB0962406D5490013C83F /* StreamsViewController.swift */,
+				CD1BB0982406D5D20013C83F /* SettingsViewController.swift */,
+				CD1BB0992406D5D20013C83F /* SettingsViewController.xib */,
 				CD1BB05F23FD84470013C83F /* Main.storyboard */,
 				CD1BB06523FD844A0013C83F /* Assets.xcassets */,
 				CD1BB06723FD844A0013C83F /* LaunchScreen.storyboard */,
@@ -129,6 +141,22 @@
 				CD1BB08023FD844A0013C83F /* Info.plist */,
 			);
 			path = "Swann Video StreamingUITests";
+			sourceTree = "<group>";
+		};
+		CD1BB08C23FD8FD00013C83F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD1BB08D23FD901A0013C83F /* Screens.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD1BB08F2400DE860013C83F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CD1BB0902400DEBD0013C83F /* Service.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +266,7 @@
 				CD1BB06923FD844A0013C83F /* LaunchScreen.storyboard in Resources */,
 				CD1BB06623FD844A0013C83F /* Assets.xcassets in Resources */,
 				CD1BB06123FD84470013C83F /* Main.storyboard in Resources */,
+				CD1BB09B2406D5D20013C83F /* SettingsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,9 +292,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD1BB06423FD84470013C83F /* Swann_Video_Streaming.xcdatamodeld in Sources */,
-				CD1BB05E23FD84470013C83F /* ViewController.swift in Sources */,
+				CD1BB08E23FD901A0013C83F /* Screens.swift in Sources */,
 				CD1BB05A23FD84470013C83F /* AppDelegate.swift in Sources */,
+				CD1BB0972406D5490013C83F /* StreamsViewController.swift in Sources */,
 				CD1BB05C23FD84470013C83F /* SceneDelegate.swift in Sources */,
+				CD1BB0912400DEBD0013C83F /* Service.swift in Sources */,
+				CD1BB09A2406D5D20013C83F /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
