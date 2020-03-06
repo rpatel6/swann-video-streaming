@@ -14,59 +14,13 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rcG-Nw-wTy">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                            </view>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Xec-LI-gc2">
-                                <rect key="frame" x="108.5" y="815" width="197" height="32"/>
-                                <segments>
-                                    <segment title="First"/>
-                                    <segment title="Second"/>
-                                    <segment title="Third"/>
-                                </segments>
-                                <connections>
-                                    <action selector="segmentChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="YXk-rM-5bX"/>
-                                </connections>
-                            </segmentedControl>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Foo-RF-RTO">
-                                <rect key="frame" x="348" y="60" width="50" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="50" id="Fi7-9O-HiT"/>
-                                    <constraint firstAttribute="height" constant="50" id="TCp-FJ-beC"/>
-                                </constraints>
-                                <state key="normal" backgroundImage="settings"/>
-                                <connections>
-                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p3N-Nu-mRp"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Foo-RF-RTO" secondAttribute="trailing" constant="16" id="8Yz-oI-dSf"/>
-                            <constraint firstItem="Foo-RF-RTO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="EKa-sU-eAC"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Xec-LI-gc2" secondAttribute="bottom" constant="16" id="Td4-pG-oMw"/>
-                            <constraint firstAttribute="trailing" secondItem="rcG-Nw-wTy" secondAttribute="trailing" id="YWV-S3-3bq"/>
-                            <constraint firstItem="Xec-LI-gc2" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="aga-X6-E6H"/>
-                            <constraint firstItem="rcG-Nw-wTy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bcn-TA-B5C"/>
-                            <constraint firstAttribute="bottom" secondItem="rcG-Nw-wTy" secondAttribute="bottom" constant="34" id="fdz-uh-gsW"/>
-                            <constraint firstItem="rcG-Nw-wTy" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="vfX-LW-CQq"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <connections>
-                        <outlet property="playerView" destination="rcG-Nw-wTy" id="QEm-6H-zu0"/>
-                        <outlet property="segmentedControl" destination="Xec-LI-gc2" id="YFE-Td-Jzy"/>
-                        <outlet property="settingsButton" destination="Foo-RF-RTO" id="QoB-sR-FI1"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="133.92857142857142"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="settings" width="25" height="25"/>
-    </resources>
 </document>
